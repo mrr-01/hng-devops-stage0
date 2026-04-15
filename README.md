@@ -485,15 +485,15 @@ hngdevops ALL=(ALL) NOPASSWD: /usr/sbin/sshd
 # ❌ Incorrect (won't work for grader)
 hngdevops ALL=(ALL) NOPASSWD: ALL
 
-### 👤 Author
+
 <div align="center">
 
+  ### 👤 Author
 HNG Username: Mr. React
-
 Stage: 0/10
-
 Track: DevOps
 
 ### Connect With Me
 [![GITHUB](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mrr-01)]
 [![LINKEDIN](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/victor-joseph-4a6917312)
+</div>
