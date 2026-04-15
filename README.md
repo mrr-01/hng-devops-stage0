@@ -31,7 +31,6 @@
 
 - [Project Overview](#-project-overview)
 - [Architecture](#-architecture)
-- [Requirements Met](#-requirements-met)
 - [Technologies Used](#-technologies-used)
 - [Quick Start](#-quick-start)
 - [Detailed Setup](#-detailed-setup)
@@ -72,7 +71,8 @@ GET https://mrrhng.mooo.com/api
   "track": "DevOps",
   "username": "Mr. React"
 }
-
+```
+### 🏗️ Architecture
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                              INTERNET                                        │
 └─────────────────────────────────────────────────────────────────────────────┘
@@ -124,26 +124,28 @@ GET https://mrrhng.mooo.com/api
 │                                                                              │
 └─────────────────────────────────────────────────────────────────────────────┘
 
-🛠️ Technologies Used
+### 🛠️ Technologies Used
 Infrastructure
 Technology	Version	Purpose
 AWS EC2	t2.micro	Cloud compute instance
 Ubuntu	22.04 LTS	Operating system
 Elastic IP	-	Static public IP address
-Web Server
+
+### Web Server
 Technology	Version	Purpose
 Nginx	1.18.0	Web server and reverse proxy
 Certbot	2.9.0	SSL certificate management
 Let's Encrypt	-	Free SSL certificates
-Security
-Technology	Purpose
+
+### Technology	Purpose
 UFW	Host-based firewall
 AWS Security Groups	Cloud-level firewall
 SSH Key Pairs	Secure authentication
 DNS
 Service	Purpose
 FreeDNS	Domain name resolution
-🚀 Quick Start
+
+### 🚀 Quick Start
 bash
 
 # Test the live endpoints
@@ -155,7 +157,7 @@ curl -I http://mrrhng.mooo.com/
 
 # Expected output: HTTP/1.1 301 Moved Permanently
 
-📝 Detailed Setup
+### 📝 Detailed Setup
 1. AWS EC2 Provisioning
 bash
 
@@ -349,7 +351,7 @@ To                         Action      From
 80/tcp                     ALLOW IN    Anywhere
 443/tcp                    ALLOW IN    Anywhere
 
-🧪 Testing & Verification
+### 🧪 Testing & Verification
 # Test HTTP redirect
 curl -I http://mrrhng.mooo.com/
 
@@ -451,7 +453,7 @@ sudo grep -E "PermitRootLogin|PasswordAuthentication" /etc/ssh/sshd_config
 # Restart SSH
 sudo systemctl restart sshd
 
-📚 Lessons Learned
+### 📚 Lessons Learned
 
 1. File Permissions Matter Critically
 File	Required Permission
@@ -483,7 +485,7 @@ hngdevops ALL=(ALL) NOPASSWD: /usr/sbin/sshd
 # ❌ Incorrect (won't work for grader)
 hngdevops ALL=(ALL) NOPASSWD: ALL
 
-👤 Author
+### 👤 Author
 <div align="center">
 
 HNG Username: Mr. React
@@ -492,6 +494,6 @@ Stage: 0/10
 
 Track: DevOps
 
-Connect With Me
+### Connect With Me
 [![GITHUB](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mrr-01)]
 [![LINKEDIN](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/victor-joseph-4a6917312)
