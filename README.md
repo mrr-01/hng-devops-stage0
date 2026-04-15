@@ -68,7 +68,7 @@ GET https://mrrhng.mooo.com/
 GET https://mrrhng.mooo.com/api
 # Returns: 
 {
-  "message": "HNGI14 Stage 1",
+  "message": "HNGI14 Stage 0",
   "track": "DevOps",
   "username": "Mr. React"
 }
@@ -256,11 +256,11 @@ html
 <!DOCTYPE html>
 <html>
 <head>
-    <title>HNG DevOps Stage 1</title>
+    <title>HNG DevOps Stage 0</title>
 </head>
 <body>
     <h1>Mr. React</h1>
-    <p>HNGI14 DevOps Stage 1</p>
+    <p>HNGI14 DevOps Stage 0</p>
 </body>
 </html>
 
@@ -298,7 +298,7 @@ server {
 
     location = /api {
         add_header Content-Type application/json always;
-        return 200 '{"message":"HNGI14 Stage 1","track":"DevOps","username":"Mr. React"}';
+        return 200 '{"message":"HNGI14 Stage 0","track":"DevOps","username":"Mr. React"}';
     }
 }
 
@@ -493,7 +493,5 @@ Stage: 0/10
 Track: DevOps
 
 Connect With Me
-
-https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white
-https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
-https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white
+[![GITHUB](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mrr-01)]
+[![LINKEDIN](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/victor-joseph-4a6917312)
